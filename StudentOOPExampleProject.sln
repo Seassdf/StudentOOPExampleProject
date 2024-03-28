@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StudentOOPExampleProject", "StudentOOPExampleProject\StudentOOPExampleProject.vcxproj", "{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Debug|x64.ActiveCfg = Debug|x64
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Debug|x64.Build.0 = Debug|x64
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Debug|x86.Build.0 = Debug|Win32
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Release|x64.ActiveCfg = Release|x64
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Release|x64.Build.0 = Release|x64
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Release|x86.ActiveCfg = Release|Win32
+		{3E8EA76E-A986-4597-AC86-C445A8E7D3A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF5FB627-F258-4347-BEDF-C64E8142E442}
+	EndGlobalSection
+EndGlobal
