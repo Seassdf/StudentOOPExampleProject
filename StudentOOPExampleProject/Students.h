@@ -31,11 +31,15 @@ public:
 		mark = 0;
 	}
 
+
+
 	//destructor(деструктор)
 	~Student()
 	{
 		cout << "calling destructor"<<endl;
 	}
+
+
 
 
 	string convert() {
@@ -45,4 +49,5 @@ public:
 		s += " mark = " + to_string(mark);
 		return s;
 	}
+
 };
