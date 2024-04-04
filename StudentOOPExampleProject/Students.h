@@ -6,10 +6,48 @@ using namespace std;
 
 class Student
 {
-public:
+
 	int age;
 	string name;
 	double mark;
+
+
+public:
+
+	string convert() {
+		string  s = "";
+		s += name;
+		s += " age = " + to_string(age);
+		s += " mark = " + to_string(mark);
+		return s;
+	}
+
+
+
+	string getName() {
+		return name;
+	}
+	void getName(string nm) {
+		name = nm;
+	}
+
+	int getAge(int a) {
+		if (a > 0 && a < 90)
+		{
+			age = a;
+		}
+	}
+
+	double getMark() {
+		return mark;
+	}
+
+	double setMark(double m) {
+		if (m < 0 && m>10) {
+			return m;
+		}
+	}
+private:
 
 	//default construction (конструктор по умолчанию)
 	Student() {
@@ -36,18 +74,6 @@ public:
 	//destructor(деструктор)
 	~Student()
 	{
-		cout << "calling destructor"<<endl;
+		cout << "calling destructor" << endl;
 	}
-
-
-
-
-	string convert() {
-		string  s = "";
-		s += name;
-		s += " age = " + to_string(age);
-		s += " mark = " + to_string(mark);
-		return s;
-	}
-
 };
