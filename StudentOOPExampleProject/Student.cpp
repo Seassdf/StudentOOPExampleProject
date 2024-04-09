@@ -47,7 +47,7 @@ void Student::getName(string nm) {
 int Student::getAge(int a) {
 	if (a > 0 && a < 90)
 	{
-		age = a;
+		return age = a;
 	}
 }
 
